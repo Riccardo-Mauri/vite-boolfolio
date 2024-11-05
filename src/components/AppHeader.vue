@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      message: 'Template Vite + Vue'
+      
     }
   },
   
@@ -12,21 +12,16 @@ export default {
 <template>
   <div>
     <header>
-      <h1>
-        {{ message }}
-      </h1>
-
+      <div class="container">
+        <h1 class="text-center">I Nostri Progetti</h1>
+      </div>
     </header>
   </div>
 </template>
 
 <style scoped>
 header{
-  background-color: aquamarine;
   text-align: center;
-  padding: 25px 0;
-}
-h1{
-  color: lightcoral;
+  padding: 10px 20px;
 }
 </style>

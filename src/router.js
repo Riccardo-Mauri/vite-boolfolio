@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from './pages/HomePage.vue';
-import ProjectPage from './pages/ProjectPage.vue';
+import ProjectsPage from './pages/ProjectsPage.vue';
 import AboutPage from './pages/AboutPage.vue';
 
 
@@ -15,7 +15,7 @@ component: HomePage
 {
 path: '/progetti-definiti',
 name: 'Projects',
-component: ProjectPage
+component: ProjectsPage
 },
 {
 path: '/chi-sono',

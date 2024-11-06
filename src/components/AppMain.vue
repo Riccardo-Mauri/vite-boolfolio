@@ -26,6 +26,7 @@ export default {
 
 <template>
 <main>
+  <router-view></router-view>
       <div class="container text-center">
           <div class="projectCard">
             <div v-for="Project in Projects" :key="Project.id" class="">
